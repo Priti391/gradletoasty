@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#23C4ED"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showtoast"
+        android:text="Error"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#E21717"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showtoast"
+        android:text="successful"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#3DBE29"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showtoast"
+        android:text="info button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#120E43"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/warningbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showtoast"
+        android:text="warning button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#6A1B4D"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/imagebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showtoast"
+        android:text="image button"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#FF6263"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
